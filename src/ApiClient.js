@@ -34,7 +34,7 @@ class ApiClient {
          * @type {String}
          * @default http://localhost
          */
-        this.basePath = 'http://localhost'.replace(/\/+$/, '');
+        this.basePath = 'http://localhost:3000'.replace(/\/+$/, '');
 
         /**
          * The authentication methods to be included for all API calls.
